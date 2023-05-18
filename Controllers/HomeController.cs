@@ -16,6 +16,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        ViewBag.ListaPaises = Info.ListarPaises();
         return View();
     }
 
@@ -28,5 +29,9 @@ public class HomeController : Controller
     public IActionResult Error()
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+    }
+    public IActionResult DetallePais(string pais){
+        ViewBag.Pais = Info.DetallePais(pais);
+        return View();
     }
 }

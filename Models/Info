@@ -1,0 +1,22 @@
+static class Info{
+    private static List<Pais> ListaPaises;
+    /*
+
+    private static void IniciarLista(){
+        ListaPaises.Add(new Pais("Argentina", "Argentina.jpg", 45810000, 9/7/1816, "Las Cataratas del Iguazú, Ciudad de Buenos Aires, El Glaciar Perito Moreno, Bariloche, Ushuaia"));
+        ListaPaises.Add(new Pais("Sudáfrica", "Sudáfrica.jpg", 59390000, 31/5/1961, "Ciudad del Cabo, Parque Nacional Kruger, La Ruta Jardín, Robben Island, Viñedos de Stellenbosch"));
+        ListaPaises.Add(new Pais("Portugal", "Portugal.jpg", 10330000, 5/10/1143, "Lisboa, Oporto, El Algarve, Sintra, Douro Valley"));
+        ListaPaises.Add(new Pais("Rusia", "Rusia.jpg", 143400000, 25/12/1991, "Moscú, San Petersburgo, Anillo de Oro, Lago Baikal, Transiberiano"));
+        ListaPaises.Add(new Pais("Canadá", "Canadá.jpg", 38250000, 1/7/1867, "Las Cataratas del Niágara, Parque Nacional Banff, Ciudad de Quebec, Vancouver, Isla del Príncipe Eduardo"));
+    }
+    
+    public static List<Pais> ListarPaises(){
+        if (ListaPaises == null)
+            IniciarLista();
+        
+    }
+    public static Pais DetallePais(string Nombre){
+        
+    }
+    */
+}

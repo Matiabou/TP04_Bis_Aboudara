@@ -19,6 +19,11 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: rgb(202, 202, 202);
+}
+img{
+  width: 30%;
+  height: auto;
 }
 #imgIndex{
   width: 19%;

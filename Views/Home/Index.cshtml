@@ -4,9 +4,9 @@
 
 <div class="text-center">
     <div>
-    @foreach (Pais pais in ViewBag.ListaPaises)
-    {
-        <a href = '@Url.Action("DetallePais", new {pais = @pais.Nombre})'><img id = "imgIndex" src="@pais.imgBandera"></a>
-    }
+        @foreach (Pais pais in ViewBag.ListaPaises)
+        {
+            <a href='@Url.Action("DetallePais", new {pais = @pais.Nombre})'><img id="imgIndex" src="@pais.imgBandera"></a>
+        }
     </div>
 </div>
